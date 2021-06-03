@@ -9,6 +9,8 @@ WORKDIR /app/
 COPY package.json yarn.lock /app/
 # 
 RUN npm install
+#
+RUN npm install react-scripts --save
 # 
 
 # Add rest of the client code
