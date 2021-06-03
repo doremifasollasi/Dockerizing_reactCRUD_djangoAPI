@@ -23,7 +23,9 @@ services:
       - backend
     command: npm start
 
-# docker-compose run --rm backend python manage.py startapp char_count
+# docker-compose up
+
+# docker-compose run --rm backend python manage.py startapp EmployeeApp
 
 # docker-compose run --rm frontend npm add axios
 # docker-compose down
