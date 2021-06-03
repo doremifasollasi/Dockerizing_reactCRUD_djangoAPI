@@ -10,6 +10,9 @@ COPY package.json yarn.lock /app/
 # 
 RUN npm install
 #
+
+RUN npm install --save bootstrap
+RUN npm install --save react-router-dom
 RUN npm install react-scripts --save
 # 
 
