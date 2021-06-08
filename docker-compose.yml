@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.2"
 services:
   backend:
     build: ./backend
@@ -22,4 +22,3 @@ services:
     depends_on:
       - backend
     command: npm start
-
