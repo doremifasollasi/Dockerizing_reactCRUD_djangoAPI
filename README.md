@@ -3,7 +3,7 @@ Dockerizing is the process of packing, deploying, and running applications using
 
 Type following:
 
-1) in folder "frontand"
+1) in folder "frontend"
 `npm install react-scripts --save`
  >>> (after running will create folder "node_modules" in folder "react-crud")
 
