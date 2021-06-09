@@ -3,7 +3,7 @@ Dockerizing is the process of packing, deploying, and running applications using
 
 Type following:
 
-'npm install react-scripts --save'
- >>> (create folder "node_modules" in folder "react-crud")
+`npm install react-scripts --save`
+ >>> (after running will create folder "node_modules" in folder "react-crud")
  
-'docker-compose up --build'
+`docker-compose up --build`
